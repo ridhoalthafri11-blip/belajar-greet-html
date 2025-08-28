@@ -1,0 +1,102 @@
+.container {
+  display: flex;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 3fr 1fr;
+  grid-template-rows: 1fr 3fr 1fr;
+  column-gap: 20px;
+  row-gap: 10px;
+}
+.bg-red {
+  background-color: red;
+}
+.bg-yellow {
+  background-color: yellow;
+}
+.bg-green {
+  background-color: green;
+}
+.bg-orange {
+  background-color: orange;
+}
+.container-grid-2 {
+  border: 2px solid #000;
+  display: grid;
+  grid-template-areas:
+    "header header"
+    "sidebar main"
+    "sidebar footer";
+  padding: 10px;
+  border-radius: 20px;
+}
+.header {
+  grid-area: header;
+  height: 40px;
+}
+.sidebar {
+  grid-area: sidebar;
+  height: 60px;
+}
+.main {
+  grid-area: main;
+}
+.footer {
+  grid-area: footer;
+}
+.container-grid-3 {
+  display: grid;
+  grid-template-areas: "utama kedua" "utama ketiga" "utama keempat";
+}
+
+.utama {
+    grid-area:utama ;
+}
+.kedua {
+    grid-area: kedua;
+}
+.ketiga {
+    grid-area: ketiga;
+}
+.keempat {
+    grid-area: keempat;
+}
+
+.container-grid-4 {
+  display: grid;
+  grid-template-areas: 
+  "satu dua"
+  "tiga dua";
+  padding-top: 40px;
+}
+.satu {
+  grid-area: satu;
+  background-color: aqua;
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+  border: 2px solid ;
+}
+.dua {
+  grid-area: dua;
+  background-color: aquamarine;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 10px;
+  border: 2px solid;
+}
+.tiga {
+  grid-area: tiga;
+  background-color: rgb(229, 10, 10);
+  height: 100px;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid;
+}
