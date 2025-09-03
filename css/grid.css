@@ -16,6 +16,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 10px;
+    border: 2px solid rgb(235, 212, 123);
 }
 
 .header{

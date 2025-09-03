@@ -49,6 +49,7 @@
   grid-template-areas: "utama kedua" "utama ketiga" "utama keempat";
 }
 
+
 .utama {
     grid-area:utama ;
 }
